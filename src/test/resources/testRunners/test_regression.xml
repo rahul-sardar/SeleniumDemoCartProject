@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Test Automation Regression Suite" parallel = "tests" thread-count ="2" >
+
+  <listeners>  
+       <listener class-name="com.qa.democart.TestListeners.ExtentReportListener"/>
+       <listener class-name="com.qa.democart.TestListeners.TestAllureListener"/>  
+  </listeners>  
+  <!-- <listeners>  
+       <listener class-name="com.qa.democart.TestListeners.TestAllureListener"/>  
+  </listeners>  --> 
+  <test  name="LoginPage Test" verbose="2">
+    <classes>
+      <class name="com.qa.democart.tests.LoginPageTest"/>
+ 
+    </classes>
+  </test> 
+  
+  <test  name="AccountsPage Test" verbose="2">
+    <classes>
+      <class name="com.qa.democart.tests.AccountsPageTest"/>  
+    </classes>
+  </test>
+  
+  <test  name="RegistrationPage Test" verbose="2">
+    <classes>
+      <class name="com.qa.democart.tests.RegistrationPageTest"/>  
+    </classes>
+  </test>
+  
+</suite> 
+         
