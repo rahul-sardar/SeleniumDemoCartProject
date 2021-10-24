@@ -11,7 +11,7 @@ import com.qa.democart.base.BaseTest;
 import com.qa.democart.utils.Constants;
 import com.qa.democart.utils.ExcelUtil;
 
-@Listeners(ExtentReportListener.class)
+//@Listeners(ExtentReportListener.class)
 public class RegistrationPageTest extends BaseTest {
 	
 	@BeforeClass

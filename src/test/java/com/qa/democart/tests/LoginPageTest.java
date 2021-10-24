@@ -8,7 +8,7 @@ import com.qa.democart.TestListeners.ExtentReportListener;
 import com.qa.democart.base.BaseTest;
 import com.qa.democart.utils.Constants;
 
-@Listeners(ExtentReportListener.class)
+//@Listeners(ExtentReportListener.class)
 public class LoginPageTest extends BaseTest {
 	
 	
